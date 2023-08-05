@@ -1,0 +1,52 @@
+﻿<Window x:Class="Project_IDF6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Project_IDF6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Background="#ffd19b">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0"/>
+            <ColumnDefinition Width="*"/>
+
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="250"/>
+
+        </Grid.RowDefinitions>
+        <Grid Grid.Column="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="480"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Border Grid.Column="1" CornerRadius="25" Background="White"/>
+            <Border Grid.Column="1" CornerRadius="10" Background="#f1f1f1" Width="400" Height="100" Margin="0,-130,50,0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="90"/>
+                        <ColumnDefinition Width="320"/>
+                    </Grid.ColumnDefinitions>
+                    <TextBlock Grid.Column="1" Text="SISTEMAS IT" Width="180" Height="35" FontSize="35" FontFamily="Calibri"></TextBlock>
+                    <Image Source="C:\Users\al197\OneDrive\Documentos\Visual Studio 2017\Projects\Project-IDF6\Project-IDF6\Image\logo.png"></Image>
+                </Grid>
+            </Border>
+            <Button Grid.Column="1" Height="50" Width="150" Margin="0,100,0,0" Style="{DynamicResource ButtonStyle1}" Click="Button_Click">
+                <Grid Width="150">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="60"/>
+                        <ColumnDefinition Width="72*"/>
+                        <ColumnDefinition Width="13*"/>
+                        <ColumnDefinition Width="5*"/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="C:\Users\al197\OneDrive\Documentos\Visual Studio 2017\Projects\Project-IDF6\Project-IDF6\Image\icon key.png" Width="60" Height="40"></Image>
+                    <TextBlock Text="Click Me" Grid.Column="1" FontSize="20" FontFamily="Arial" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="0,9,0,8" Grid.ColumnSpan="2"></TextBlock>
+                </Grid>
+            </Button>
+        </Grid>
+    </Grid>
+</Window>
+
+     
