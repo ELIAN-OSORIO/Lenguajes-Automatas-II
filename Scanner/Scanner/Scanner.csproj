@@ -57,6 +57,15 @@
     <Compile Include="Views\Page1.xaml.cs">
       <DependentUpon>Page1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Page2.xaml.cs">
+      <DependentUpon>Page2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Page3.xaml.cs">
+      <DependentUpon>Page3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Page4.xaml.cs">
+      <DependentUpon>Page4.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\UserControl1.xaml.cs">
       <DependentUpon>UserControl1.xaml</DependentUpon>
     </Compile>
@@ -82,6 +91,18 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="Views\Page1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Page2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Page3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Page4.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -145,6 +166,45 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\lowbattery.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\incorrect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\correct.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\batteryfull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\dell.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\custom.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\scanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\verification.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\user.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

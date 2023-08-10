@@ -24,5 +24,11 @@ namespace Scanner.Views
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Page2 ventana = new Page2();
+            prueba.Content = ventana;
+        }
     }
 }
