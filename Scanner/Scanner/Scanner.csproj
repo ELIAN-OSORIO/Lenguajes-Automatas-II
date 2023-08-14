@@ -66,6 +66,15 @@
     <Compile Include="Views\Page4.xaml.cs">
       <DependentUpon>Page4.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Page5.xaml.cs">
+      <DependentUpon>Page5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Page6.xaml.cs">
+      <DependentUpon>Page6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Page7.xaml.cs">
+      <DependentUpon>Page7.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\UserControl1.xaml.cs">
       <DependentUpon>UserControl1.xaml</DependentUpon>
     </Compile>
@@ -103,6 +112,18 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Page4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Page5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Page6.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Page7.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -205,6 +226,15 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\zebra.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\remove.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\cargador.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

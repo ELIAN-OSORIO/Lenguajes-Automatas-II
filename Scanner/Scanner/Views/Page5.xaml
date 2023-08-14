@@ -1,0 +1,66 @@
+﻿<Page x:Class="Scanner.Views.Page5"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Scanner.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="419" d:DesignWidth="592"
+      Title="Page5">
+
+    <Grid Background="White">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Border Background="Black">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                </Grid>
+            </Border>
+            <Border Grid.Row="1">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="/Image/remove.png" Margin="0 0 0 80" Height="200" Width="280"/>
+                    <Border Grid.Column="1">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="Remove Battery" Height="20" Width="120" FontSize="15" TextAlignment="Center" HorizontalAlignment="Left" Margin="10 -10 0 0"></TextBlock>
+                            <Separator Height="10" Margin="20 30 20 0" Opacity="0.5"></Separator>
+                            <Border Grid.Row="1">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                        <RowDefinition Height="180"/>
+                                        <RowDefinition Height="50"/>
+                                    </Grid.RowDefinitions>
+                                    <TextBlock Text="Una vez hecho lo anterior presione los seguros de la bateria que se encuentra a los lados, esto permitira sacar la bateria completamente del dispositivo." TextWrapping="Wrap" FontSize="18" Height="140"></TextBlock>
+                                    <Border Grid.Row="1">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition/>
+                                                <ColumnDefinition/>
+                                            </Grid.ColumnDefinitions>
+                                            <Button Content="Next" Height="40" Width="120" Click="Next_Page"></Button>
+                                            <Button Grid.Column="1" Content="Back" Height="40" Width="120" Click="Back_Page"></Button>
+                                        </Grid>
+                                    </Border>
+                                </Grid>
+                            </Border>
+                        </Grid>
+                    </Border>
+                </Grid>
+            </Border>
+        </Grid>
+        <Frame x:Name="Pagina6"></Frame>
+    </Grid>
+</Page>

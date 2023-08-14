@@ -55,3 +55,9 @@ C:\Lenguajes-II\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Views\Page3.g.c
 C:\Lenguajes-II\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Views\Page3.baml
 C:\Lenguajes-II\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Views\Page4.g.cs
 C:\Lenguajes-II\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Views\Page4.baml
+C:\Lenguajes-II\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Views\Page5.g.cs
+C:\Lenguajes-II\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Views\Page5.baml
+C:\Lenguajes-II\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Views\Page6.g.cs
+C:\Lenguajes-II\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Views\Page6.baml
+C:\Lenguajes-II\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Views\Page7.g.cs
+C:\Lenguajes-II\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Views\Page7.baml
