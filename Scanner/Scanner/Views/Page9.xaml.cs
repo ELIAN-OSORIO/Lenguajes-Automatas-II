@@ -16,20 +16,13 @@ using System.Windows.Shapes;
 namespace Scanner.Views
 {
     /// <summary>
-    /// Lógica de interacción para UserControl2.xaml
+    /// Lógica de interacción para Page9.xaml
     /// </summary>
-    public partial class UserControl2 : UserControl
+    public partial class Page9 : Page
     {
-        
-        public UserControl2()
+        public Page9()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            Page9 ventana = new Page9();
-            Checklist.Content = ventana;
         }
     }
 }

@@ -75,6 +75,12 @@
     <Compile Include="Views\Page7.xaml.cs">
       <DependentUpon>Page7.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\Page8.xaml.cs">
+      <DependentUpon>Page8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Page9.xaml.cs">
+      <DependentUpon>Page9.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\UserControl1.xaml.cs">
       <DependentUpon>UserControl1.xaml</DependentUpon>
     </Compile>
@@ -124,6 +130,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views\Page7.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Page8.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Page9.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -235,6 +249,9 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Image\cargador.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\insert.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

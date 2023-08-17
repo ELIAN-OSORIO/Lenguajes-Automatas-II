@@ -24,5 +24,17 @@ namespace Scanner.Views
         {
             InitializeComponent();
         }
+
+        private void Back_Page(object sender, RoutedEventArgs e)
+        {
+            Page6 ventana = new Page6();
+            Pagina8.Content = ventana;
+        }
+
+        private void Next_Page(object sender, RoutedEventArgs e)
+        {
+            Page8 ventana = new Page8();
+            Pagina8.Content = ventana;
+        }
     }
 }

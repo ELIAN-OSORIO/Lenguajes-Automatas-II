@@ -7,6 +7,53 @@
              mc:Ignorable="d" 
              d:DesignHeight="419" d:DesignWidth="592">
     <Grid Background="White">
-        <TextBlock HorizontalAlignment="Center" VerticalAlignment="Center" Text="Esto es una prueba con 2 vistas" FontSize="20"></TextBlock>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="100"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Border>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Border>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="ID Matricula" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                        <TextBox Grid.Column="1" Height="30" Width="120"></TextBox>
+                    </Grid>
+                </Border>
+                <Border Grid.Row="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Label Content="Nombre" HorizontalAlignment="Center" VerticalAlignment="Center"></Label>
+                        <TextBox Grid.Column="1" Height="30" Width="120"></TextBox>
+                    </Grid>
+                </Border>
+                <DatePicker Grid.Column="1" Height="30" Width="150" BorderBrush="Transparent"></DatePicker>
+                <Border Grid.Row="2" Grid.Column="1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Button Height="30" Width="120" Content="Send"></Button>
+                        <Button Height="30" Width="120" Content="Checklist" Grid.Column="1" Click="Button_Click"></Button>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Border>
+        <Frame x:Name="Checklist" Grid.Row="2"></Frame>
     </Grid>
 </UserControl>
