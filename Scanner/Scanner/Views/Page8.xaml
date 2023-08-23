@@ -9,6 +9,42 @@
       Title="Page8">
 
     <Grid Background="White">
-        
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Border Background="Black"></Border>
+            <Grid Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Image Source="/Image/insert.png"/>
+                <Border Grid.Column="1">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="180"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="Insert Battery" Height="20" Width="120" FontSize="15" TextAlignment="Center" HorizontalAlignment="Left" Margin="10 -10 0 0"></TextBlock>
+                        <Separator Height="10" Margin="20 30 20 0" Opacity="0.5"></Separator>
+                        <TextBlock Grid.Row="1" Text="Retire la bateria del cargador, esto cuando se haya cargado totalmente tome la bateria del dispositivo e insertelo nuevamente en el scanner de modo que al introducir la bateria haga un pequeño click." TextWrapping="Wrap" FontSize="18"></TextBlock>
+                        <Border Grid.Row="2">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Button Width="120" Height="40" Content="Next"></Button>
+                                <Button Width="120" Height="40" Grid.Column="1" Content="Back"></Button>
+                            </Grid>
+                        </Border>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Grid>
     </Grid>
 </Page>

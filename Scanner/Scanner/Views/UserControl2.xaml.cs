@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using MySql.Data.MySqlClient;
 namespace Scanner.Views
 {
     /// <summary>
@@ -28,8 +28,166 @@ namespace Scanner.Views
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Page9 ventana = new Page9();
-            Checklist.Content = ventana;
+            MySqlConnection conexionDB = conexion.conex();
+            try
+            {
+                conexionDB.Open();
+                MySqlCommand comando = new MySqlCommand();
+                comando.Connection = conexionDB;
+                comando.CommandText = "insert into produccion(id,nombre,apellido,fecha,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8,pregunta9,pregunta10,pregunta11,pregunta12) values('" + txtID.Text + "','" + txtNombre.Text + "','" + txtApellido.Text + "','" + fecha.Text + "','" + pregunta1.IsChecked + "','" + pregunta2.IsChecked + "','" + pregunta3.IsChecked + "','" + pregunta4.IsChecked + "','" + pregunta5.IsChecked + "','" + pregunta6.IsChecked + "','" + pregunta7.IsChecked + "','" + pregunta8.IsChecked + "','" + pregunta9.IsChecked + "','" + pregunta10.IsChecked + "','" + pregunta11.IsChecked + "','" + pregunta12.IsChecked + "')";
+                comando.ExecuteNonQuery();
+                conexionDB.Close();
+            }
+            catch (Exception r)
+            {
+                MessageBox.Show(r.Message+r.StackTrace);
+                
+            }
+            MessageBox.Show("Datos ingresado correctamente");
+        }
+
+        private void pregunta1_Checked(object sender, RoutedEventArgs e)
+        {
+            if (pregunta1.IsChecked == true)
+            {
+                pregunta1.IsChecked = true;
+            }
+            else
+            {
+                pregunta1.IsChecked = false;
+            }
+        }
+
+        private void pregunta2_Checked(object sender, RoutedEventArgs e)
+        {
+            if (pregunta2.IsChecked == true)
+            {
+                pregunta2.IsChecked = true;
+            }
+            else
+            {
+                pregunta2.IsChecked = false;
+            }
+        }
+
+        private void p3(object sender, RoutedEventArgs e)
+        {
+            if (pregunta3.IsChecked == true)
+            {
+                pregunta3.IsChecked = true;
+            }
+            else
+            {
+                pregunta3.IsChecked = false;
+            }
+        }
+
+        private void p4(object sender, RoutedEventArgs e)
+        {
+            if (pregunta4.IsChecked == true)
+            {
+                pregunta4.IsChecked = true;
+            }
+            else
+            {
+                pregunta4.IsChecked = false;
+            }
+        }
+
+        private void p5(object sender, RoutedEventArgs e)
+        {
+            if (pregunta5.IsChecked == true)
+            {
+                pregunta5.IsChecked = true;
+            }
+            else
+            {
+                pregunta5.IsChecked = false;
+            }
+        }
+
+        private void p6(object sender, RoutedEventArgs e)
+        {
+            if (pregunta6.IsChecked == true)
+            {
+                pregunta6.IsChecked = true;
+            }
+            else
+            {
+                pregunta6.IsChecked = false;
+            }
+        }
+
+        private void p7(object sender, RoutedEventArgs e)
+        {
+            if (pregunta7.IsChecked == true)
+            {
+                pregunta7.IsChecked = true;
+            }
+            else
+            {
+                pregunta7.IsChecked = false;
+            }
+        }
+
+        private void p8(object sender, RoutedEventArgs e)
+        {
+            if (pregunta8.IsChecked == true)
+            {
+                pregunta8.IsChecked = true;
+            }
+            else
+            {
+                pregunta8.IsChecked = false;
+            }
+        }
+
+        private void p9(object sender, RoutedEventArgs e)
+        {
+            if (pregunta9.IsChecked == true)
+            {
+                pregunta9.IsChecked = true;
+            }
+            else
+            {
+                pregunta9.IsChecked = false;
+            }
+        }
+
+        private void p10(object sender, RoutedEventArgs e)
+        {
+            if (pregunta10.IsChecked == true)
+            {
+                pregunta10.IsChecked = true;
+            }
+            else
+            {
+                pregunta10.IsChecked = false;
+            }
+        }
+
+        private void p11(object sender, RoutedEventArgs e)
+        {
+            if (pregunta11.IsChecked == true)
+            {
+                pregunta11.IsChecked = true;
+            }
+            else
+            {
+                pregunta11.IsChecked = false;
+            }
+        }
+
+        private void p12(object sender, RoutedEventArgs e)
+        {
+            if (pregunta12.IsChecked == true)
+            {
+                pregunta12.IsChecked = true;
+            }
+            else
+            {
+                pregunta12.IsChecked = false;
+            }
         }
     }
 }

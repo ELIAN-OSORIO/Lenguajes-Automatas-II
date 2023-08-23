@@ -25,5 +25,27 @@
         <StackPanel Grid.Column="1" Background="#404041">
             <Image  Source="Image\Allegion.png" Width="300" Height="100" Margin="0 150 0 0"/>
         </StackPanel>
+        <Border Grid.Column="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition Height="50"/>
+                </Grid.RowDefinitions>
+                <Border Grid.Row="1" Background="Black">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition Width="50"/>
+                        </Grid.ColumnDefinitions>
+                        <Button Grid.Column="1" BorderBrush="Transparent" Click="Visual">
+                            <Button.Background>
+                                <ImageBrush ImageSource="/Image/message.png"/>
+                            </Button.Background>
+                        </Button>
+                    </Grid>
+                </Border>
+            </Grid>
+        </Border>
+        <Frame x:Name="visual" Grid.Column="1"></Frame>
     </Grid>
 </Window>
