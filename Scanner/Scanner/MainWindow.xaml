@@ -47,5 +47,6 @@
             </Grid>
         </Border>
         <Frame x:Name="visual" Grid.Column="1"></Frame>
+        <Frame x:Name="menu"></Frame>
     </Grid>
 </Window>

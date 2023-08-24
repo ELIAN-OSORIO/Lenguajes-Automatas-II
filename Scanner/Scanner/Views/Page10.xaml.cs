@@ -12,7 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-
+using Scanner.Views;
 namespace Scanner.Views
 {
     /// <summary>
@@ -23,6 +23,12 @@ namespace Scanner.Views
         public Page10()
         {
             InitializeComponent();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+          
+           
         }
     }
 }
