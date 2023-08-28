@@ -38,7 +38,7 @@
                                 <RowDefinition Height="50"/>
                                 <RowDefinition/>
                             </Grid.RowDefinitions>
-                            <TextBlock Text="Charging Center" Height="20" Width="120" FontSize="15" TextAlignment="Center" HorizontalAlignment="Left" Margin="10 -10 0 0"></TextBlock>
+                            <TextBlock Text="Centro de carga" Height="20" Width="120" FontSize="15" TextAlignment="Center" HorizontalAlignment="Left" Margin="10 -10 0 0"></TextBlock>
                             <Separator Height="10" Margin="20 30 20 0" Opacity="0.5"></Separator>
                             <TextBlock Grid.Row="1 " Text="Para cargar la bateria del dispositivo, inserte la bateria en el lugar correspondiente una vez hecho los pasos anteriores conecte la punta del cable de corriente en la entrada de la caja del equipo que se encuentra debajo por ultimo solo conectelo a un toma corriente." FontSize="15" TextWrapping="Wrap" Height="150"></TextBlock>
                             <Border Grid.Row="2">
@@ -47,8 +47,8 @@
                                         <ColumnDefinition/>
                                         <ColumnDefinition/>
                                     </Grid.ColumnDefinitions>
-                                    <Button Height="40" Width="120" Content="Next" Click="Next_Page" Background="#4682b4" FontSize="20" BorderBrush="White" Foreground="White"></Button>
-                                    <Button Height="40" Width="120" Content="Back" Grid.Column="1" Click="Back_Page" Foreground="White" FontSize="20" BorderBrush="White" Background="#4682b4"></Button>
+                                    <Button Height="40" Width="120" Content="CONTINUAR" Click="Next_Page" Background="#4682b4" FontSize="20" BorderBrush="White" Foreground="White"></Button>
+                                    <Button Height="40" Width="120" Content="REGRESAR" Grid.Column="1" Click="Back_Page" Foreground="White" FontSize="20" BorderBrush="White" Background="#4682b4"></Button>
                                 </Grid>
                             </Border>
                         </Grid>

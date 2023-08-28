@@ -1,0 +1,38 @@
+﻿<Page x:Class="Scanner.Views.Page10"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Scanner.Views"
+      mc:Ignorable="d" 
+      d:DesignHeight="420" d:DesignWidth="593"
+      Title="Page10">
+
+    <Grid Background="#4682b4">
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="1">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="180"/>
+                    <ColumnDefinition Width="350"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="/Image/escanner.png" HorizontalAlignment="Center" VerticalAlignment="Center" Height="50" Width="50"></Image>
+                <TextBlock Text="En la ventana Escaner tendra acceso al cambio correcto de su bateria." Grid.Column="1" FontSize="20" TextWrapping="Wrap" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Grid>
+        </Border>
+        <Border>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="180"/>
+                    <ColumnDefinition Width="350"/>
+                </Grid.ColumnDefinitions>
+                <Image Source="/Image/checkscan.png" Height="50" Width="50"/>
+                <TextBlock Text="En la ventana Checklist podra realizar su propia revision de su equipo de trabajo en caso de posibles fallas." TextWrapping="Wrap" Grid.Column="1" Foreground="White" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Grid>
+        </Border>
+    </Grid>
+</Page>

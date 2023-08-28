@@ -37,7 +37,29 @@ namespace Scanner
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            DataContext = new UserControl3();
+            //DataContext = new UserControl3();
+            MainWindow ventana = new MainWindow();
+            ventana.Show();
+            Close();
         }
+
+        private void ventanainfo(object sender, RoutedEventArgs e)
+        {
+            Page10 ventana = new Page10();
+            ventanaInfo.Content = ventana;
+        }
+
+        private void ventanaprincipal(object sender, RoutedEventArgs e)
+        {
+            MainWindow ventana = new MainWindow();
+            ventana.Show();
+            Close();
+        }
+
+
+        //private void ventanapps(object sender, RoutedEventArgs e)
+        //{
+        //DataContext = new UserControl3();
+        //}
     }
 }

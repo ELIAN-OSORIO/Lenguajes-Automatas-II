@@ -13,51 +13,82 @@
         </DataTemplate>
     </Window.Resources>
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="200"/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-        <StackPanel Grid.ColumnSpan="2" Background="#515151">
-            <TextBlock Height="20" Width="230" TextAlignment="Center" VerticalAlignment="Center" Text="Microsoft Intune admin center" Foreground="White" HorizontalAlignment="Left" FontSize="18" Margin="15" FontFamily="Calibri"/>
-        </StackPanel>
-        <StackPanel Grid.Row="1" Background="#E3E4E5">
-            <Button Height="30" BorderBrush="Transparent" Margin="0 30 0 0" Click="Button_Click">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.ColumnSpan="2" Background="#515151">
+                <TextBlock Height="20" Width="230" TextAlignment="Center" VerticalAlignment="Center" Text="Microsoft Intune admin center" Foreground="White" HorizontalAlignment="Left" FontSize="18" Margin="15" FontFamily="Calibri"/>
+            </StackPanel>
+            <StackPanel Grid.Row="1" Background="#E3E4E5">
+                <Button Height="30" BorderBrush="Transparent" Margin="0 30 0 0" Click="Button_Click">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50"/>
+                            <ColumnDefinition Width="150"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="1" Text="Escaner" TextAlignment="Left" VerticalAlignment="Center" HorizontalAlignment="Left" Width="140" FontSize="15"/>
+                        <Image Source="Image\home.png"/>
+                    </Grid>
+                </Button>
+                <Button Height="30" BorderBrush="Transparent" Margin="0 0 0 0" Click="Button_Click_1">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50"/>
+                            <ColumnDefinition Width="150"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="1" Text="Checklist" TextAlignment="Left" VerticalAlignment="Center" HorizontalAlignment="Left" Width="140" FontSize="15"/>
+                        <Image Source="Image\setting.png"/>
+                    </Grid>
+                </Button>
+                <Button Height="30" BorderBrush="Transparent" Margin="0 0 0 0" Click="Button_Click_2">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50"/>
+                            <ColumnDefinition Width="150"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="1" Text="Menu" TextAlignment="Left" VerticalAlignment="Center" HorizontalAlignment="Left" Width="140" FontSize="15"/>
+                        <Image Source="Image\acerca de.png"/>
+                    </Grid>
+                </Button>
+            </StackPanel>
+            <Grid Grid.Row="1" Grid.Column="1" Background="#4682b4">
                 <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="50"/>
-                        <ColumnDefinition Width="150"/>
-                    </Grid.ColumnDefinitions>
-                    <TextBlock Grid.Column="1" Text="Scanner" TextAlignment="Left" VerticalAlignment="Center" HorizontalAlignment="Left" Width="140" FontSize="15"/>
-                    <Image Source="Image\home.png"/>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="100"/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.RowSpan="1" Text="Bienvenido al menu desplegable" FontSize="35" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White"></TextBlock>
+                    <Border Grid.Row="1">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Grid.RowSpan="1" Text="¿Desea conocer mas informacion?" FontSize="20" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                            <Border Grid.Row="2">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition/>
+                                        <ColumnDefinition/>
+                                    </Grid.ColumnDefinitions>
+                                    <Button Height="40" Width="150" Content="CONTINUAR" Click="ventanainfo" Foreground="White" FontSize="20" Background="#4682b4" BorderBrush="White"></Button>
+                                    <Button Height="40" Width="150" Grid.Column="1" Click="ventanaprincipal" Content="NO POR AHORA" Foreground="White" FontSize="20" Background="#4682b4" BorderBrush="White"></Button>
+                                </Grid>
+                            </Border>
+                        </Grid>
+                    </Border>
+                    <Frame Grid.RowSpan="3" x:Name="ventanaInfo"></Frame>
                 </Grid>
-            </Button>
-            <Button Height="30" BorderBrush="Transparent" Margin="0 0 0 0" Click="Button_Click_1">
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="50"/>
-                        <ColumnDefinition Width="150"/>
-                    </Grid.ColumnDefinitions>
-                    <TextBlock Grid.Column="1" Text="Checklist" TextAlignment="Left" VerticalAlignment="Center" HorizontalAlignment="Left" Width="140" FontSize="15"/>
-                    <Image Source="Image\setting.png"/>
-                </Grid>
-            </Button>
-            <Button Height="30" BorderBrush="Transparent" Margin="0 0 0 0" Click="Button_Click_2">
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="50"/>
-                        <ColumnDefinition Width="150"/>
-                    </Grid.ColumnDefinitions>
-                    <TextBlock Grid.Column="1" Text="Acerca de" TextAlignment="Left" VerticalAlignment="Center" HorizontalAlignment="Left" Width="140" FontSize="15"/>
-                    <Image Source="Image\acerca de.png"/>
-                </Grid>
-            </Button>
-        </StackPanel>
-        <Grid Grid.Column="1" Grid.Row="1">
-            <ContentControl Content="{Binding}"/>
+                <ContentControl Content="{Binding}"/>
+            </Grid>
         </Grid>
+        <Frame x:Name="VentanaPrincipal"></Frame>
     </Grid>
 </Window>

@@ -14,7 +14,7 @@
                 <RowDefinition Height="80"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <TextBlock Grid.Column="1" Text="Notifications" Height="20" Width="100" HorizontalAlignment="Left" Opacity="0.5" FontSize="18" Margin="20 0 0 0"></TextBlock>
+            <TextBlock Grid.Column="1" Text="Notificaciones" Height="20" Width="120" HorizontalAlignment="Left" Opacity="0.5" FontSize="18" Margin="20 0 0 0"></TextBlock>
             <Border Grid.Row="1" Background="#b90e0a">
                 <Grid>
                     <Grid.ColumnDefinitions>
@@ -41,7 +41,7 @@
                                 <RowDefinition Height="100"/>
                                 <RowDefinition/>
                             </Grid.RowDefinitions>
-                            <TextBlock Text="Battery" Height="30" Width="70" FontSize="20" TextAlignment="Center" HorizontalAlignment="Left" Margin="10 0 0 0"></TextBlock>
+                            <TextBlock Text="Bateria" Height="30" Width="70" FontSize="20" TextAlignment="Center" HorizontalAlignment="Left" Margin="10 0 0 0"></TextBlock>
                             <Separator Margin="10 30 20 0" Opacity="0.5"></Separator>
                             <Grid Grid.Row="1">
                                 <Grid.ColumnDefinitions>
@@ -56,14 +56,12 @@
                                         <RowDefinition Height="30"/>
                                         <RowDefinition/>
                                     </Grid.RowDefinitions>
-                                    <TextBlock Text="¿Desea continuar?" Height="30" Width="160" FontSize="20" HorizontalAlignment="Left" Margin="10 0 0 0"></TextBlock>
                                     <Grid Grid.Row="1">
                                         <Grid.ColumnDefinitions>
                                             <ColumnDefinition Width="120"/>
                                             <ColumnDefinition/>
                                         </Grid.ColumnDefinitions>
-                                        <Button Height="30" Width="100" Content="Yes" FontSize="15" Foreground="White" HorizontalAlignment="Left" Margin="10 0 0 0" Click="Button_Click" Background="#4682b4" BorderBrush="White"></Button>
-                                        <Button Grid.Column="1" Height="30" Width="100" Content="No" FontSize="15" HorizontalAlignment="Left" Margin="10 0 0 0" Click="page4" Background="#9a9d9f" Foreground="White" BorderBrush="Silver"></Button>
+                                        <Button Height="30" Width="100" Content="CONTINUAR" FontSize="15" Foreground="White" HorizontalAlignment="Left" Margin="10 0 0 0" Click="Button_Click" Background="#4682b4" BorderBrush="White"></Button>
                                     </Grid>
                                 </Grid>
                             </Border>

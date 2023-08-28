@@ -20,7 +20,7 @@
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
                     <Image Source="/Image/zebra.png" Width="45" Height="45"/>
-                    <TextBlock Grid.Column="1" Height="30" Text="Manual User" Width="120" FontSize="20" TextAlignment="Center" HorizontalAlignment="Left" Margin="10 0 0 0" Foreground="White"></TextBlock>
+                    <TextBlock Grid.Column="1" Height="30" Text="Manual Usuario" Width="160" FontSize="20" TextAlignment="Center" HorizontalAlignment="Left" Margin="10 0 0 0" Foreground="White"></TextBlock>
                 </Grid>
             </Border>
             <Border Grid.Row="1">
@@ -39,7 +39,7 @@
                                 <RowDefinition Height="50"/>
                                 <RowDefinition/>
                             </Grid.RowDefinitions>
-                            <TextBlock Text="Battery Change" Height="20" Width="120" FontSize="15" TextAlignment="Center" HorizontalAlignment="Left" Margin="10 -10 0 0"></TextBlock>
+                            <TextBlock Text="Cambio bateria" Height="20" Width="120" FontSize="15" TextAlignment="Center" HorizontalAlignment="Left" Margin="10 -10 0 0"></TextBlock>
                             <Separator Height="10" Margin="20 30 20 0" Opacity="0.5"></Separator>
                             <TextBlock Grid.Row="1" Text="Para cambiar la bateria del dispositivo presione los botones al mismo tiempo que se encuentra ambos lados del escaner esto permite que se libere la bateria."  TextWrapping="Wrap" Height="120" FontSize="18" Margin="0 -20 0 0"></TextBlock>
                             <Border Grid.Row="2">
@@ -48,8 +48,8 @@
                                         <ColumnDefinition/>
                                         <ColumnDefinition/>
                                     </Grid.ColumnDefinitions>
-                                    <Button Content="Next" Height="40" Width="120" Click="Next_Page" Foreground="White" FontSize="20" Background="#4682b4" BorderBrush="White"></Button>
-                                    <Button Content="Back" Height="40" Width="120" Grid.Column="1" Click="Back_Page" Foreground="White" FontSize="20" Background="#4682b4" BorderBrush="White"></Button>
+                                    <Button Content="CONTINUAR" Height="40" Width="120" Click="Next_Page" Foreground="White" FontSize="20" Background="#4682b4" BorderBrush="White"></Button>
+                                    <Button Content="REGRESAR" Height="40" Width="120" Grid.Column="1" Click="Back_Page" Foreground="White" FontSize="20" Background="#4682b4" BorderBrush="White"></Button>
                                 </Grid>
                             </Border>
                         </Grid>

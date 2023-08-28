@@ -18,7 +18,7 @@
                 <RowDefinition/>
             </Grid.RowDefinitions>
             <Border Background="#4682b4" Grid.ColumnSpan="2">
-                <TextBlock Grid.Column="1" Text="Notifications" Foreground="White" Height="30" Width="230" Margin="10 0 0 0" HorizontalAlignment="Left" FontSize="18"></TextBlock>
+                <TextBlock Grid.Column="1" Text="Notificaciones" Foreground="White" Height="30" Width="230" Margin="10 0 0 0" HorizontalAlignment="Left" FontSize="18"></TextBlock>
             </Border>
             <Border Grid.Row="1" Grid.ColumnSpan="2">
                 <Grid>
@@ -32,7 +32,7 @@
                                 <RowDefinition Height="50"/>
                                 <RowDefinition/>
                             </Grid.RowDefinitions>
-                            <TextBlock Text="Batery" Width="50" Height="20" TextAlignment="Center" FontSize="15" HorizontalAlignment="Left" Margin="20 0 0 0"></TextBlock>
+                            <TextBlock Text="Bateria" Width="50" Height="20" TextAlignment="Center" FontSize="15" HorizontalAlignment="Left" Margin="20 0 0 0"></TextBlock>
                             <Separator Width="330" Height="10" Margin="-30 30 0 0" Opacity="0.5"/>
                             <Grid Grid.Row="1">
                                 <Grid.RowDefinitions>
@@ -41,7 +41,7 @@
                                     <RowDefinition/>
                                 </Grid.RowDefinitions>
                                 <Button Grid.Row="2" Grid.Column="3" Height="40" Width="150" Background="#4682b4" BorderBrush="White" Click="Button_Click">
-                                    <TextBlock Text="BACK" Foreground="White" FontSize="25"></TextBlock>
+                                    <TextBlock Text="REGRESAR" Foreground="White" FontSize="25"></TextBlock>
                                 </Button>
                                 <TextBlock Text="Esto significa que la bateria del dispositivo se encuentra entre un 50% a 100%" TextWrapping="Wrap" FontSize="20"></TextBlock>
                                 <TextBlock Text="No es necesario continuar interactuando con la app ya que la bateria se encuentra en buenas condiciones" TextWrapping="Wrap" Grid.Row="1" FontSize="20"></TextBlock>

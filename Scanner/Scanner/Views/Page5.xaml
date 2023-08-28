@@ -35,7 +35,7 @@
                                 <RowDefinition Height="50"/>
                                 <RowDefinition/>
                             </Grid.RowDefinitions>
-                            <TextBlock Text="Remove Battery" Height="20" Width="120" FontSize="15" TextAlignment="Center" HorizontalAlignment="Left" Margin="10 -10 0 0"></TextBlock>
+                            <TextBlock Text="Remover Bateria" Height="20" Width="120" FontSize="15" TextAlignment="Center" HorizontalAlignment="Left" Margin="10 -10 0 0"></TextBlock>
                             <Separator Height="10" Margin="20 30 20 0" Opacity="0.5"></Separator>
                             <Border Grid.Row="1">
                                 <Grid>
@@ -50,8 +50,8 @@
                                                 <ColumnDefinition/>
                                                 <ColumnDefinition/>
                                             </Grid.ColumnDefinitions>
-                                            <Button Content="Next" Height="40" Width="120" Click="Next_Page" BorderBrush="White" Background="#4682b4" Foreground="White" FontSize="20"></Button>
-                                            <Button Grid.Column="1" Content="Back" Height="40" Width="120" Click="Back_Page" Background="#4682b4" Foreground="White" FontSize="20" BorderBrush="White"></Button>
+                                            <Button Content="CONTINUAR" Height="40" Width="140" Click="Next_Page" BorderBrush="White" Background="#4682b4" Foreground="White" FontSize="20"></Button>
+                                            <Button Grid.Column="1" Content="REGRESAR" Height="40" Width="140" Click="Back_Page" Background="#4682b4" Foreground="White" FontSize="20" BorderBrush="White"></Button>
                                         </Grid>
                                     </Border>
                                 </Grid>

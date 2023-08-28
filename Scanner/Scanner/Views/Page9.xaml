@@ -29,7 +29,7 @@
                                 <RowDefinition Height="50"/>
                             </Grid.RowDefinitions>
                             <TextBlock Text="En caso de que el escaner arroje un estatus de color rojo significa que algo no esta bien colocado en su posición." TextWrapping="Wrap" Grid.Row="1" FontSize="20"></TextBlock>
-                            <Button Grid.Row="3" Width="120" Height="40" Content="BACK" FontSize="20" BorderBrush="White" Background="#4682b4" Foreground="White" Click="ventana8"></Button>
+                            <Button Grid.Row="3" Width="120" Height="40" Content="REGRESAR" FontSize="20" BorderBrush="White" Background="#4682b4" Foreground="White" Click="ventana8"></Button>
                         </Grid>
                     </Border>
                 </Grid>

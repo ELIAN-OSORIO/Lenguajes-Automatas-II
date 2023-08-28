@@ -9,8 +9,9 @@
     <Grid Background="#4682b4">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
-            <ColumnDefinition Width="500"/>
+            <ColumnDefinition Width="420"/>
         </Grid.ColumnDefinitions>
+        <Image Source="/Image/engra.png" Height="250"/>
         <Border Grid.Column="1">
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -33,11 +34,8 @@
                                     <ColumnDefinition/>
                                     <ColumnDefinition/>
                                 </Grid.ColumnDefinitions>
-                                <Button BorderBrush="White" Grid.Column="2" Height="40" Width="150" HorizontalAlignment="Center" Click="Button_Click" Background="#4682b4 ">
-                                    <TextBlock Text="NEXT" FontSize="25" FontFamily="Trebuchet MS" Foreground="White"></TextBlock>
-                                </Button>
-                                <Button BorderBrush="White" Height="40" Width="150" HorizontalAlignment="Center" Background="#4682b4">
-                                    <TextBlock Text="TUTORIAL" FontSize="25" FontFamily="Trebuchet MS" Foreground="White"></TextBlock>
+                                <Button BorderBrush="White" Grid.ColumnSpan="2" Height="40" Width="150" HorizontalAlignment="Center" Click="Button_Click" Background="#4682b4 ">
+                                    <TextBlock Text="CONTINUAR" FontSize="25" FontFamily="Trebuchet MS" Foreground="White"></TextBlock>
                                 </Button>
                             </Grid>
                         </Border>
