@@ -47,8 +47,8 @@
                                         <ColumnDefinition/>
                                         <ColumnDefinition/>
                                     </Grid.ColumnDefinitions>
-                                    <Button Height="40" Width="120" Content="Next" Click="Next_Page"></Button>
-                                    <Button Height="40" Width="120" Content="Back" Grid.Column="1" Click="Back_Page"></Button>
+                                    <Button Height="40" Width="120" Content="Next" Click="Next_Page" Background="#4682b4" FontSize="20" BorderBrush="White" Foreground="White"></Button>
+                                    <Button Height="40" Width="120" Content="Back" Grid.Column="1" Click="Back_Page" Foreground="White" FontSize="20" BorderBrush="White" Background="#4682b4"></Button>
                                 </Grid>
                             </Border>
                         </Grid>

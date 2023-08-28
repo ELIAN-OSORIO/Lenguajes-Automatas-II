@@ -27,7 +27,7 @@ namespace Scanner.Views
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Page2 ventana = new Page2();
+            UserControl1 ventana = new UserControl1();
             prueba.Content = ventana;
         }
     }

@@ -50,8 +50,8 @@
                                                 <ColumnDefinition/>
                                                 <ColumnDefinition/>
                                             </Grid.ColumnDefinitions>
-                                            <Button Content="Next" Height="40" Width="120" Click="Next_Page"></Button>
-                                            <Button Grid.Column="1" Content="Back" Height="40" Width="120" Click="Back_Page"></Button>
+                                            <Button Content="Next" Height="40" Width="120" Click="Next_Page" BorderBrush="White" Background="#4682b4" Foreground="White" FontSize="20"></Button>
+                                            <Button Grid.Column="1" Content="Back" Height="40" Width="120" Click="Back_Page" Background="#4682b4" Foreground="White" FontSize="20" BorderBrush="White"></Button>
                                         </Grid>
                                     </Border>
                                 </Grid>

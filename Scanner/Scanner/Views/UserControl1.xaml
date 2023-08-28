@@ -6,31 +6,29 @@
              xmlns:local="clr-namespace:Scanner.Views"
              mc:Ignorable="d" 
              d:DesignHeight="419" d:DesignWidth="592">
-    <Grid Background="#333333">
-        
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="50"/>
-                    <RowDefinition/>
-                </Grid.RowDefinitions>
-            <Border Background="Black">
+    <Grid>
+        <Grid Background="#4682b4">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.RowSpan="2" Text="¿Cual es el estatus de su bateria?" FontSize="35" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            <Border Grid.Row="1">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
-                        <ColumnDefinition Width="50"/>
-                        <ColumnDefinition Width="50"/>
+                        <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <Image Grid.Column="1" Source="/Image/wifi.png"></Image>
-                    <Button Grid.Column="2" BorderBrush="Transparent" Click="Button_Click">
-                        <Button.Background>
-                            <ImageBrush ImageSource="/Image/batery.png"/>
-                        </Button.Background>
+                    <Button BorderBrush="White" Click="Button_Click" Height="40" Width="150" Background="#4682b4">
+                        <TextBlock Text="BUENO" FontSize="25" Foreground="White"></TextBlock>
+                    </Button>
+                    <Button Grid.Column="1" Height="40" Width="150" Background="#4682b4" BorderBrush="White" Click="Ventana3">
+                        <TextBlock Text="CRITICO" FontSize="25" Foreground="White"></TextBlock>
                     </Button>
                 </Grid>
             </Border>
-            </Grid>
-    
-        <Image Source="/Image/Allegion.png" Width="350" Height="70"></Image>
+        </Grid>
         <Frame x:Name="Frameprueba"></Frame>
     </Grid>
 </UserControl>

@@ -5,35 +5,36 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Scanner.Views"
       mc:Ignorable="d" 
-      d:DesignHeight="420" d:DesignWidth="693"
+      d:DesignHeight="450" d:DesignWidth="800"
       Title="Page9">
-
-    <Grid Background="White">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="50"/>
-            <RowDefinition/>
-        </Grid.RowDefinitions>
-        <Border Background="Black"></Border>
-        <Border Grid.Row="1">
-            <Grid>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="200"/>
-                    <ColumnDefinition/>
-                </Grid.ColumnDefinitions>
-                <StackPanel Background="#e3e4e5">
-                    <Button Height="30" BorderBrush="Transparent" Margin="0 30 0 0" Click="Button_Click">
+    <Grid>
+        <Grid Background="White">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Border Background="Black"></Border>
+            <Border Grid.Row="1">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+                    <Image Source="/Image/scan.png"/>
+                    <Border Grid.Column="1">
                         <Grid>
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="50"/>
-                                <ColumnDefinition Width="150"/>
-                            </Grid.ColumnDefinitions>
-                            <TextBlock Text="Ayuda Visual" Grid.Column="1" Width="140" TextAlignment="Left" VerticalAlignment="Center" HorizontalAlignment="Left" FontSize="15"></TextBlock>
-                            <Image Source="/Image/1.png"/>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="180"/>
+                                <RowDefinition Height="50"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock Text="En caso de que el escaner arroje un estatus de color rojo significa que algo no esta bien colocado en su posición." TextWrapping="Wrap" Grid.Row="1" FontSize="20"></TextBlock>
+                            <Button Grid.Row="3" Width="120" Height="40" Content="BACK" FontSize="20" BorderBrush="White" Background="#4682b4" Foreground="White" Click="ventana8"></Button>
                         </Grid>
-                    </Button>
-                </StackPanel>
-                <Frame Grid.Column="1" x:Name="Message"></Frame>
-            </Grid>
-        </Border>
+                    </Border>
+                </Grid>
+            </Border>
+        </Grid>
+        <Frame x:Name="back"></Frame>
     </Grid>
 </Page>

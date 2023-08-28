@@ -31,7 +31,7 @@
                         <ColumnDefinition Width="50"/>
                         <ColumnDefinition Width="150"/>
                     </Grid.ColumnDefinitions>
-                    <TextBlock Grid.Column="1" Text="Home" TextAlignment="Left" VerticalAlignment="Center" HorizontalAlignment="Left" Width="140" FontSize="15"/>
+                    <TextBlock Grid.Column="1" Text="Scanner" TextAlignment="Left" VerticalAlignment="Center" HorizontalAlignment="Left" Width="140" FontSize="15"/>
                     <Image Source="Image\home.png"/>
                 </Grid>
             </Button>
@@ -41,7 +41,7 @@
                         <ColumnDefinition Width="50"/>
                         <ColumnDefinition Width="150"/>
                     </Grid.ColumnDefinitions>
-                    <TextBlock Grid.Column="1" Text="Setting" TextAlignment="Left" VerticalAlignment="Center" HorizontalAlignment="Left" Width="140" FontSize="15"/>
+                    <TextBlock Grid.Column="1" Text="Checklist" TextAlignment="Left" VerticalAlignment="Center" HorizontalAlignment="Left" Width="140" FontSize="15"/>
                     <Image Source="Image\setting.png"/>
                 </Grid>
             </Button>

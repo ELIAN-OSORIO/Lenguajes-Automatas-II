@@ -13,7 +13,7 @@
             <ColumnDefinition Width="80"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <TextBlock Grid.Column="1" Text="El dispositivo presenta un 20% de bateria se recomienda cargar la bateria del equipo." Foreground="White" Height="50" FontSize="18" TextWrapping="Wrap"></TextBlock>
+        <TextBlock Grid.Column="1" Text="En caso de no continuar por un error de selección solo de un click al boton scanner." Foreground="White" Height="50" FontSize="18" TextWrapping="Wrap"></TextBlock>
         <Image Source="/Image/verification.png" Height="40" Width="40"/>
     </Grid>
 </Page>

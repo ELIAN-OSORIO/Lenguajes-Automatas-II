@@ -38,13 +38,14 @@
                                     <ColumnDefinition/>
                                     <ColumnDefinition/>
                                 </Grid.ColumnDefinitions>
-                                <Button Width="120" Height="40" Content="Next"></Button>
-                                <Button Width="120" Height="40" Grid.Column="1" Content="Back"></Button>
+                                <Button Width="120" Height="40" Content="Next" Background="#4682b4" FontSize="20" BorderBrush="White" Foreground="White" Click="ventana9"></Button>
+                                <Button Width="120" Height="40" Grid.Column="1" Content="Back" Background="#4682b4" BorderBrush="White" Foreground="White" FontSize="20" Click="page7"></Button>
                             </Grid>
                         </Border>
                     </Grid>
                 </Border>
             </Grid>
         </Grid>
+        <Frame x:Name="back"></Frame>
     </Grid>
 </Page>

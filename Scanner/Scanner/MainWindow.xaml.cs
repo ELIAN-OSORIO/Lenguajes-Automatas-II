@@ -34,10 +34,5 @@ namespace Scanner
             
         }
 
-        private void Visual(object sender, RoutedEventArgs e)
-        {
-            Page9 ventana = new Page9();
-            visual.Content = ventana;
-        }
     }
 }

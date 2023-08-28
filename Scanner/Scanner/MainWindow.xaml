@@ -6,47 +6,44 @@
         xmlns:local="clr-namespace:Scanner"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="#4682b4">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="100"/>
             <ColumnDefinition/>
+            <ColumnDefinition Width="500"/>
         </Grid.ColumnDefinitions>
-        <Border Background="#333333" CornerRadius="5">
-            <Button Height="40" Width="40" Margin="0 120 0 0" BorderBrush="Transparent" HorizontalAlignment="Center" Click="Button_Click">
-                <Button.Background>
-                    <ImageBrush ImageSource="Image\circle.png"/>
-                </Button.Background>
-            </Button>
-        </Border>
-        <Rectangle Fill="White" Height="10" Width="90" Margin="0 -150 0 0" HorizontalAlignment="Center"></Rectangle>
-        <Rectangle Fill="White" Height="10" Width="90" Margin="0 -200 0 0" HorizontalAlignment="Center"></Rectangle>
-        <Rectangle Fill="White" Height="10" Width="90" Margin="0 -100 0 0" HorizontalAlignment="Center"></Rectangle>
-        <Image Source="Image\circle small.png" Width="20" Height="20" Margin="0 210 0 0" HorizontalAlignment="Center"/>
-        <StackPanel Grid.Column="1" Background="#404041">
-            <Image  Source="Image\Allegion.png" Width="300" Height="100" Margin="0 150 0 0"/>
-        </StackPanel>
         <Border Grid.Column="1">
             <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition/>
-                    <RowDefinition Height="50"/>
-                </Grid.RowDefinitions>
-                <Border Grid.Row="1" Background="Black">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition Width="350"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <Border Grid.Column="1">
                     <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition/>
-                            <ColumnDefinition Width="50"/>
-                        </Grid.ColumnDefinitions>
-                        <Button Grid.Column="1" BorderBrush="Transparent" Click="Visual">
-                            <Button.Background>
-                                <ImageBrush ImageSource="/Image/message.png"/>
-                            </Button.Background>
-                        </Button>
+                        <Grid.RowDefinitions>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                            <RowDefinition/>
+                        </Grid.RowDefinitions>
+                        <TextBlock Text="AYUDA" Grid.RowSpan="2" Foreground="White" FontSize="65" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Trebuchet MS"></TextBlock>
+                        <TextBlock Text="VISUAL" Grid.RowSpan="3" Foreground="White" FontSize="65" HorizontalAlignment="Center" VerticalAlignment="Center" FontFamily="Trebuchet MS"></TextBlock>
+                        <Border Grid.Row="3">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition/>
+                                    <ColumnDefinition/>
+                                </Grid.ColumnDefinitions>
+                                <Button BorderBrush="White" Grid.Column="2" Height="40" Width="150" HorizontalAlignment="Center" Click="Button_Click" Background="#4682b4 ">
+                                    <TextBlock Text="NEXT" FontSize="25" FontFamily="Trebuchet MS" Foreground="White"></TextBlock>
+                                </Button>
+                                <Button BorderBrush="White" Height="40" Width="150" HorizontalAlignment="Center" Background="#4682b4">
+                                    <TextBlock Text="TUTORIAL" FontSize="25" FontFamily="Trebuchet MS" Foreground="White"></TextBlock>
+                                </Button>
+                            </Grid>
+                        </Border>
                     </Grid>
                 </Border>
             </Grid>
         </Border>
-        <Frame x:Name="visual" Grid.Column="1"></Frame>
-        <Frame x:Name="menu"></Frame>
     </Grid>
 </Window>

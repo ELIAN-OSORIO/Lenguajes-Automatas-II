@@ -17,15 +17,8 @@
                 <RowDefinition Height="60"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <Border Background="Black" Grid.ColumnSpan="2">
-                <Grid>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="70"/>
-                        <ColumnDefinition/>
-                    </Grid.ColumnDefinitions>
-                    <Image Source="/Image/dell.png" Width="50" Height="50"/>
-                    <TextBlock Grid.Column="1" Text="Command | Power Manager" Foreground="White" Height="30" Width="230" HorizontalAlignment="Left" FontSize="18"></TextBlock>
-                </Grid>
+            <Border Background="#4682b4" Grid.ColumnSpan="2">
+                <TextBlock Grid.Column="1" Text="Notifications" Foreground="White" Height="30" Width="230" Margin="10 0 0 0" HorizontalAlignment="Left" FontSize="18"></TextBlock>
             </Border>
             <Border Grid.Row="1" Grid.ColumnSpan="2">
                 <Grid>
@@ -33,21 +26,6 @@
                         <ColumnDefinition Width="200"/>
                         <ColumnDefinition/>
                     </Grid.ColumnDefinitions>
-                    <Grid>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="40"/>
-                            <RowDefinition/>
-                            <RowDefinition/>
-                        </Grid.RowDefinitions>
-                        <TextBlock Text="Battery Information" Height="30" Width="160" TextAlignment="Center" FontSize="18" HorizontalAlignment="Left" Opacity="0.6" Margin="10 0 0 0"></TextBlock>
-                        <Grid Grid.Row="1">
-                            <Grid.RowDefinitions>
-                                <RowDefinition Height="40"/>
-                                <RowDefinition/>
-                            </Grid.RowDefinitions>
-                            <TextBlock Text="System" Height="30" Width="60" HorizontalAlignment="Left" FontSize="15" Margin="15 0 0 0"></TextBlock>
-                        </Grid>
-                    </Grid>
                     <Border Grid.Column="1">
                         <Grid>
                             <Grid.RowDefinitions>
@@ -58,44 +36,15 @@
                             <Separator Width="330" Height="10" Margin="-30 30 0 0" Opacity="0.5"/>
                             <Grid Grid.Row="1">
                                 <Grid.RowDefinitions>
-                                    <RowDefinition Height="30"/>
-                                    <RowDefinition Height="30"/>
-                                    <RowDefinition Height="30"/>
+                                    <RowDefinition/>
+                                    <RowDefinition/>
                                     <RowDefinition/>
                                 </Grid.RowDefinitions>
-                                <Grid>
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="100"/>
-                                        <ColumnDefinition/>
-                                    </Grid.ColumnDefinitions>
-                                    <TextBlock Text="Battery Health:" Height="20" Width="100" TextAlignment="Center" HorizontalAlignment="Left" FontSize="13"></TextBlock>
-                                    <TextBlock Grid.Column="1" Text="Excellent" Height="20" Width="50" TextAlignment="Center" FontSize="13" HorizontalAlignment="Left" Opacity="0.5" Margin="10 0 0 0"></TextBlock>
-                                </Grid>
-                                <Grid Grid.Row="1">
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="100"/>
-                                        <ColumnDefinition/>
-                                    </Grid.ColumnDefinitions>
-                                    <TextBlock Text="Charge Status:" Height="20" Width="100" TextAlignment="Center" HorizontalAlignment="Left" FontSize="13"></TextBlock>
-                                    <TextBlock Grid.Column="1" Text="100% available" Height="20" Width="90" FontSize="13" HorizontalAlignment="Left" Opacity="0.5" Margin="10 0 0 0" TextAlignment="Center"></TextBlock>
-                                </Grid>
-                                <Grid Grid.Row="2">
-                                    <Grid.ColumnDefinitions>
-                                        <ColumnDefinition Width="100"/>
-                                        <ColumnDefinition/>
-                                    </Grid.ColumnDefinitions>
-                                    <TextBlock Text="Battery Setting:" Height="20" Width="100" TextAlignment="Center" HorizontalAlignment="Left" FontSize="13"></TextBlock>
-                                    <Grid Grid.Column="1">
-                                        <Grid.ColumnDefinitions>
-                                            <ColumnDefinition Width="40"/>
-                                            <ColumnDefinition Width="80"/>
-                                            <ColumnDefinition/>
-                                        </Grid.ColumnDefinitions>
-                                        <Image Source="/Image/custom.png"/>
-                                        <TextBlock Grid.Column="1" Text="Custom" Height="20" Width="50" TextAlignment="Center" Opacity="0.5" HorizontalAlignment="Left"></TextBlock>
-                                        <Button Grid.Column="3" Height="30" Width="100" HorizontalAlignment="Left" Background="#228be6" BorderBrush="#228be6" Content="SETTINGS" FontSize="11" Foreground="White" Click="Button_Click"></Button>
-                                    </Grid>
-                                </Grid>
+                                <Button Grid.Row="2" Grid.Column="3" Height="40" Width="150" Background="#4682b4" BorderBrush="White" Click="Button_Click">
+                                    <TextBlock Text="BACK" Foreground="White" FontSize="25"></TextBlock>
+                                </Button>
+                                <TextBlock Text="Esto significa que la bateria del dispositivo se encuentra entre un 50% a 100%" TextWrapping="Wrap" FontSize="20"></TextBlock>
+                                <TextBlock Text="No es necesario continuar interactuando con la app ya que la bateria se encuentra en buenas condiciones" TextWrapping="Wrap" Grid.Row="1" FontSize="20"></TextBlock>
                             </Grid>
                         </Grid>
                     </Border>
