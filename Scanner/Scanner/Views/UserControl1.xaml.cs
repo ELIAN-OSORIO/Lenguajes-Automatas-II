@@ -27,13 +27,13 @@ namespace Scanner.Views
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            Page1 ventana = new Page1();
+            Page4 ventana = new Page4();
             Frameprueba.Content = ventana;
         }
 
         private void Ventana3(object sender, RoutedEventArgs e)
         {
-            Page2 ventana = new Page2();
+            Page1 ventana = new Page1();
             Frameprueba.Content = ventana;
         }
     }

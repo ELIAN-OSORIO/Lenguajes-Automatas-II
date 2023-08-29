@@ -20,8 +20,8 @@
                     <ColumnDefinition Width="180"/>
                     <ColumnDefinition Width="350"/>
                 </Grid.ColumnDefinitions>
-                <Image Source="/Image/casa.png" HorizontalAlignment="Center" VerticalAlignment="Center" Height="50" Width="50"></Image>
-                <TextBlock Text="En la ventana Escaner tendra acceso al cambio correcto de su bateria." Grid.Column="1" FontSize="20" TextWrapping="Wrap" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                <Image Source="/Image/ajuste.png" HorizontalAlignment="Center" VerticalAlignment="Center" Height="50" Width="50"></Image>
+                <TextBlock Text="En el boton Checklist podra realizar su propia revision de su equipo de trabajo en caso de posibles fallas." Grid.Column="1" FontSize="20" TextWrapping="Wrap" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
             </Grid>
         </Border>
         <Border>
@@ -30,8 +30,8 @@
                     <ColumnDefinition Width="180"/>
                     <ColumnDefinition Width="350"/>
                 </Grid.ColumnDefinitions>
-                <Image Source="/Image/ajuste.png" Height="50" Width="50"/>
-                <TextBlock Text="En la ventana Checklist podra realizar su propia revision de su equipo de trabajo en caso de posibles fallas." TextWrapping="Wrap" Grid.Column="1" Foreground="White" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                <Image Source="/Image/casa.png" Height="50" Width="50"/>
+                <TextBlock Text="En el boton Escaner podra consultar una pequeña guia paso a paso." TextWrapping="Wrap" Grid.Column="1" Foreground="White" FontSize="20" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
             </Grid>
         </Border>
     </Grid>

@@ -33,7 +33,7 @@ namespace Scanner.Views
 
         private void Back_Page(object sender, RoutedEventArgs e)
         {
-            Page2 ventana = new Page2();
+            UserControl1 ventana = new UserControl1();
             Pagina5.Content = ventana;
         }
     }

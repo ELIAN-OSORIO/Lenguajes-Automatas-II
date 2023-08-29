@@ -16,25 +16,13 @@ using System.Windows.Shapes;
 namespace Scanner.Views
 {
     /// <summary>
-    /// Lógica de interacción para Page9.xaml
+    /// Interaction logic for Page11.xaml
     /// </summary>
-    public partial class Page9 : Page
+    public partial class Page11 : Page
     {
-        public Page9()
+        public Page11()
         {
             InitializeComponent();
         }
-
-        private void ventana8(object sender, RoutedEventArgs e)
-        {
-            Page8 ventana = new Page8();
-            back.Content = ventana;
-        }
-
-        private void ventanaFinalizar(object sender, RoutedEventArgs e)
-        {
-            Page11 ventana = new Page11();
-            back.Content = ventana;
-         }
     }
 }
