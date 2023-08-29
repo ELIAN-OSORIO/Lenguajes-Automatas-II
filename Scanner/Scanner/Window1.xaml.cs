@@ -27,20 +27,22 @@ namespace Scanner
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            DataContext = new UserControl1();
+            //DataContext = new UserControl1();
+            MainWindow ventana = new MainWindow();
+            ventana.Show();
+            Close();
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            DataContext = new UserControl2();
+            //DataContext = new UserControl2();
+            DataContext = new UserControl1();
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             //DataContext = new UserControl3();
-            MainWindow ventana = new MainWindow();
-            ventana.Show();
-            Close();
+            DataContext = new UserControl2();
         }
 
         private void ventanainfo(object sender, RoutedEventArgs e)
