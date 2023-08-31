@@ -27,10 +27,10 @@
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
-                        <ColumnDefinition/>
+                        <ColumnDefinition Width="350"/>
                     </Grid.ColumnDefinitions>
-                    <Image Source="/Image/user.png" Width="300" Height="300"/>
-                    <Rectangle Height="20" Width="50" Margin="-30 -180 0 0" Stroke="Red"></Rectangle>
+                    <Image Source="/Image/user.png" Width="210" Height="210"/>
+                    <Rectangle Height="20" Width="50" Margin="-30 -130 0 0" Stroke="Red"></Rectangle>
                     <Border Grid.Column="1">
                         <Grid>
                             <Grid.RowDefinitions>
@@ -39,9 +39,9 @@
                                 <RowDefinition Height="50"/>
                                 <RowDefinition/>
                             </Grid.RowDefinitions>
-                            <TextBlock Text="Cambio bateria" Height="20" Width="120" FontSize="15" TextAlignment="Center" HorizontalAlignment="Left" Margin="10 -10 0 0"></TextBlock>
+                            <TextBlock Text="Cambio bateria" Height="30" Width="180" FontSize="25" TextAlignment="Center" HorizontalAlignment="Left" Margin="10 -10 0 0"></TextBlock>
                             <Separator Height="10" Margin="20 30 20 0" Opacity="0.5"></Separator>
-                            <TextBlock Grid.Row="1" Text="Para cambiar la bateria del dispositivo presione los botones al mismo tiempo que se encuentra ambos lados del escaner esto permite que se libere la bateria."  TextWrapping="Wrap" Height="120" FontSize="18" Margin="0 -20 0 0"></TextBlock>
+                            <TextBlock  Grid.Row="1" Text="Para cambiar la bateria del dispositivo presione los botones al mismo tiempo que se encuentra ambos lados del escaner esto permite que se libere la bateria." TextWrapping="Wrap" Height="180" FontSize="20" TextAlignment="Justify"></TextBlock>
                             <Border Grid.Row="2">
                                 <Grid>
                                     <Grid.ColumnDefinitions>

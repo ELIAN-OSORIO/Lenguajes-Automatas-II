@@ -25,10 +25,10 @@
                         <Grid>
                             <Grid.RowDefinitions>
                                 <RowDefinition Height="50"/>
-                                <RowDefinition Height="180"/>
+                                <RowDefinition Height="200"/>
                                 <RowDefinition Height="50"/>
                             </Grid.RowDefinitions>
-                            <TextBlock Grid.Row="1" Text="Una vez completado el ciclo de carga de la bateria, verifique si el centro de carga marca un foco de color verde, posteriormente retire la bateria oprimiendo los botones que se encuentran a ambos lados de la bateria." TextWrapping="Wrap" FontSize="18" Height="170"></TextBlock>
+                            <TextBlock Grid.Row="1" Text="Una vez completado el ciclo de carga de la bateria, verifique si el centro de carga marca un foco de color verde, posteriormente retire la bateria oprimiendo los botones que se encuentran a ambos lados de la bateria." TextWrapping="Wrap" FontSize="20"  TextAlignment="Justify"></TextBlock>
                             <Border Grid.Row="2">
                                 <Grid>
                                     <Grid.ColumnDefinitions>

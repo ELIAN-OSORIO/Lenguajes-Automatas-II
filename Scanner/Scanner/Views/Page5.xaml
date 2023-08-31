@@ -8,7 +8,7 @@
       d:DesignHeight="419" d:DesignWidth="592"
       Title="Page5">
 
-    <Grid Background="White">
+    <Grid Background="White"> 
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="50"/>
@@ -35,7 +35,7 @@
                                 <RowDefinition Height="50"/>
                                 <RowDefinition/>
                             </Grid.RowDefinitions>
-                            <TextBlock Text="Remover Bateria" Height="20" Width="120" FontSize="15" TextAlignment="Center" HorizontalAlignment="Left" Margin="10 -10 0 0"></TextBlock>
+                            <TextBlock Text="Remover Bateria" Height="30" Width="190" FontSize="25" TextAlignment="Center" HorizontalAlignment="Left" Margin="10 -10 0 0"></TextBlock>
                             <Separator Height="10" Margin="20 30 20 0" Opacity="0.5"></Separator>
                             <Border Grid.Row="1">
                                 <Grid>
@@ -43,7 +43,7 @@
                                         <RowDefinition Height="180"/>
                                         <RowDefinition Height="50"/>
                                     </Grid.RowDefinitions>
-                                    <TextBlock Text="Una vez hecho lo anterior presione los seguros de la bateria que se encuentra a los lados, esto permitira sacar la bateria completamente del dispositivo." TextWrapping="Wrap" FontSize="18" Height="140"></TextBlock>
+                                    <TextBlock Text="Una vez hecho lo anterior presione los seguros de la bateria que se encuentra a los lados, esto permitira sacar la bateria completamente del dispositivo." TextWrapping="Wrap" FontSize="20" TextAlignment="Justify"></TextBlock>
                                     <Border Grid.Row="1">
                                         <Grid>
                                             <Grid.ColumnDefinitions>
