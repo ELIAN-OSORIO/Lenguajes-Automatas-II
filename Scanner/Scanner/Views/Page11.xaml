@@ -8,7 +8,7 @@
       d:DesignHeight="419" d:DesignWidth="592"
       Title="Page11">
 
-    <Grid Background="#4682b4">
+    <Grid Background="#007cab">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition Width="320"/>

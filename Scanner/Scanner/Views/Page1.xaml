@@ -17,7 +17,7 @@
                 <RowDefinition Height="60"/>
                 <RowDefinition/>
             </Grid.RowDefinitions>
-            <Border Background="#4682b4" Grid.ColumnSpan="2">
+            <Border Background="#007cab" Grid.ColumnSpan="2">
                 <TextBlock Grid.Column="1" Text="Notificaciones" Foreground="White" Height="30" Width="230" Margin="10 0 0 0" HorizontalAlignment="Left" FontSize="25"></TextBlock>
             </Border>
             <Border Grid.Row="1" Grid.ColumnSpan="2">
@@ -43,8 +43,8 @@
                                 <Button Grid.Row="2" Grid.Column="3" Height="40" Width="150" Background="#4682b4" BorderBrush="White" Click="Button_Click">
                                     <TextBlock Text="REGRESAR" Foreground="White" FontSize="25"></TextBlock>
                                 </Button>
-                                <TextBlock Text="Esto significa que la bateria del dispositivo se encuentra entre un 50% a 100%" TextWrapping="Wrap" FontSize="20"></TextBlock>
-                                <TextBlock Text="No es necesario continuar interactuando con la app ya que la bateria se encuentra en buenas condiciones" TextWrapping="Wrap" Grid.Row="1" FontSize="20"></TextBlock>
+                                <TextBlock Text="Esto significa que la bateria del dispositivo se encuentra entre un 50% a 100%." TextWrapping="Wrap" FontSize="18" TextAlignment="Justify" Height="50" Width="350"></TextBlock>
+                                <TextBlock Text="No es necesario continuar interactuando con la app ya que la bateria se encuentra en buenas condiciones." TextWrapping="Wrap" Grid.Row="1" FontSize="18" Height="70" Width="350" TextAlignment="Justify"></TextBlock>
                             </Grid>
                         </Grid>
                     </Border>

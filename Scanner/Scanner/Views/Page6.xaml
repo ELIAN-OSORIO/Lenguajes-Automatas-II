@@ -26,7 +26,7 @@
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition/>
-                        <ColumnDefinition/>
+                        <ColumnDefinition Width="320"/>
                     </Grid.ColumnDefinitions>
                     <Image Source="/Image/cargador.png"/>
                     <Rectangle Stroke="red" Height="80" Width="80" Margin="0 0 140 0"></Rectangle>
@@ -38,9 +38,9 @@
                                 <RowDefinition Height="50"/>
                                 <RowDefinition/>
                             </Grid.RowDefinitions>
-                            <TextBlock Text="Centro de carga" Height="35" Width="180" FontSize="25" TextAlignment="Center" HorizontalAlignment="Left" Margin="10 -10 0 0"></TextBlock>
+                            <TextBlock Text="Centro de carga" Height="35" Width="180" FontSize="25" TextAlignment="Center" HorizontalAlignment="Left" Margin="20 -10 0 0"></TextBlock>
                             <Separator Height="10" Margin="20 30 20 0" Opacity="0.5"></Separator>
-                            <TextBlock Grid.Row="1 " Text="Para cargar la bateria del dispositivo, inserte la bateria en el lugar correspondiente una vez hecho los pasos anteriores conecte la punta del cable de corriente en la entrada de la caja del equipo que se encuentra debajo por ultimo solo conectelo a un toma corriente." FontSize="20" TextAlignment="Justify" TextWrapping="Wrap"></TextBlock>
+                            <TextBlock Grid.Row="1 " Text="Para cargar la bateria del dispositivo, inserte la bateria en el lugar correspondiente una vez hecho los pasos anteriores conecte la punta del cable de corriente en la entrada de la caja del equipo que se encuentra debajo por ultimo solo conectelo a un toma corriente." FontSize="18" TextAlignment="Justify" TextWrapping="Wrap" Height="240" Width="250"></TextBlock>
                             <Border Grid.Row="2">
                                 <Grid>
                                     <Grid.ColumnDefinitions>

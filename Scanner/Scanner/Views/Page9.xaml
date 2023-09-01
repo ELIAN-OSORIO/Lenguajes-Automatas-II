@@ -28,7 +28,7 @@
                                 <RowDefinition Height="180"/>
                                 <RowDefinition Height="50"/>
                             </Grid.RowDefinitions>
-                            <TextBlock Text="Si nota que el escaner marca una alerta de color rojo significa que algo no esta bien colocado en su posición." TextWrapping="Wrap" Grid.Row="1" FontSize="20" TextAlignment="Justify"></TextBlock>
+                            <TextBlock Text="Si nota que el escaner marca una alerta de color rojo significa que algo no esta bien colocado en su posición." TextWrapping="Wrap" Grid.Row="1" FontSize="18" TextAlignment="Justify" Height="120" Width="250"></TextBlock>
                             <Grid Grid.Row="2">
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition/>

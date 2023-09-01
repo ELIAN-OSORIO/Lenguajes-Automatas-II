@@ -25,7 +25,7 @@
             <StackPanel Grid.ColumnSpan="2" Background="#515151">
                 <TextBlock Height="20" Width="230" TextAlignment="Center" VerticalAlignment="Center" Text="Microsoft Intune admin center" Foreground="White" HorizontalAlignment="Left" FontSize="18" Margin="15" FontFamily="Calibri"/>
             </StackPanel>
-            <StackPanel Grid.Row="1" Background="#E3E4E5">
+            <StackPanel Grid.Row="1" Background="#e3e4e5">
                 <Button Height="30" BorderBrush="Transparent" Margin="0 30 0 0" Click="Button_Click">
                     <Grid>
                         <Grid.ColumnDefinitions>
@@ -33,7 +33,7 @@
                             <ColumnDefinition Width="150"/>
                         </Grid.ColumnDefinitions>
                         <TextBlock Grid.Column="1" Text="Inicio" TextAlignment="Left" VerticalAlignment="Center" HorizontalAlignment="Left" Width="140" FontSize="15"/>
-                        <Image Source="Image\acerca de.png"/>
+                        <Image Source="Image\back.png"/>
                     </Grid>
                 </Button>
                 <Button Height="30" BorderBrush="Transparent" Margin="0 0 0 0" Click="Button_Click_1">
@@ -43,7 +43,7 @@
                             <ColumnDefinition Width="150"/>
                         </Grid.ColumnDefinitions>
                         <TextBlock Grid.Column="1" Text="Escaner" TextAlignment="Left" VerticalAlignment="Center" HorizontalAlignment="Left" Width="140" FontSize="15"/>
-                        <Image Source="Image\home.png"/>
+                        <Image Source="Image\ware.png"/>
                     </Grid>
                 </Button>
                 <Button Height="30" BorderBrush="Transparent" Margin="0 0 0 0" Click="Button_Click_2">
@@ -57,7 +57,7 @@
                     </Grid>
                 </Button>
             </StackPanel>
-            <Grid Grid.Row="1" Grid.Column="1" Background="#4682b4">
+            <Grid Grid.Row="1" Grid.Column="1" Background="#007cab">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="100"/>

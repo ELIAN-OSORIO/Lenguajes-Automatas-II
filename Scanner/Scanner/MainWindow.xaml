@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Scanner"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid Background="#4682b4">
+    <Grid Background="#007cab">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
             <ColumnDefinition Width="420"/>
