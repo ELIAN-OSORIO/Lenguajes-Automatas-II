@@ -35,7 +35,7 @@
                                 <RowDefinition Height="50"/>
                                 <RowDefinition/>
                             </Grid.RowDefinitions>
-                            <TextBlock Text="Remover Bateria" Height="30" Width="190" FontSize="25" TextAlignment="Center" HorizontalAlignment="Left" Margin="20 -10 0 0"></TextBlock>
+                            <TextBlock Text="Remover bateria" Height="30" Width="190" FontSize="25" TextAlignment="Center" HorizontalAlignment="Left" Margin="20 -10 0 0"></TextBlock>
                             <Separator Height="10" Margin="20 30 20 0" Opacity="0.5"></Separator>
                             <Border Grid.Row="1">
                                 <Grid>
