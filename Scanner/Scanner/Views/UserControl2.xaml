@@ -28,8 +28,8 @@
                             <ColumnDefinition/>
                             <ColumnDefinition/>
                         </Grid.ColumnDefinitions>
-                        <Label Content="ID Matricula" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="15"></Label>
-                        <TextBox x:Name="txtID" Grid.Column="1" Height="30" Width="120"></TextBox>
+                        <Label Content="Numero empleado" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="15"></Label>
+                        <TextBox x:Name="txtID" Grid.Column="1" Height="30" Width="120" PreviewTextInput="txtID_PreviewTextInput"></TextBox>
                     </Grid>
                 </Border>
                 <Border Grid.Row="1">
@@ -39,7 +39,7 @@
                             <ColumnDefinition/>
                         </Grid.ColumnDefinitions>
                         <Label Content="Nombre" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="15"></Label>
-                        <TextBox x:Name="txtNombre" Grid.Column="1" Height="30" Width="120"></TextBox>
+                        <TextBox x:Name="txtNombre" Grid.Column="1" Height="30" Width="120" PreviewTextInput="txtNombre_PreviewTextInput"></TextBox>
                     </Grid>
                 </Border>
                 <Border Grid.Column="1">
@@ -49,7 +49,7 @@
                             <ColumnDefinition Width="200"/>
                         </Grid.ColumnDefinitions>
                         <Label Content="Fecha" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="15"></Label>
-                        <DatePicker x:Name="fecha" Grid.Column="1" Height="30" Width="200" BorderBrush="Transparent" SelectedDateFormat="Long"></DatePicker>
+                        <DatePicker x:Name="fecha" Grid.Column="1" Height="30" Width="200" BorderBrush="Transparent" SelectedDateFormat="Long"/>
                     </Grid>
                 </Border>
                 <Border Grid.Row="2" Grid.Column="1">
@@ -68,7 +68,7 @@
                             <ColumnDefinition/>
                         </Grid.ColumnDefinitions>
                         <Label Content="Apellido" HorizontalAlignment="Center" VerticalAlignment="Center" Foreground="White" FontSize="15"></Label>
-                        <TextBox x:Name="txtApellido" Grid.Column="1" Width="120" Height="30"></TextBox>
+                        <TextBox x:Name="txtApellido" Grid.Column="1" Width="120" Height="30" PreviewTextInput="txtApellido_PreviewTextInput"></TextBox>
                     </Grid>
                 </Border>
             </Grid>

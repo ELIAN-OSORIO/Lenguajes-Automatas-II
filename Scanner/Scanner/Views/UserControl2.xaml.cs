@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using MySql.Data.MySqlClient;
+using System.Text.RegularExpressions;
 namespace Scanner.Views
 {
     /// <summary>
@@ -187,6 +188,39 @@ namespace Scanner.Views
             else if(casilla12.IsChecked==true && pregunta12.IsChecked==false)
             {
                 casilla12.IsChecked = false;
+            }
+        }
+
+        private void txtID_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+            Regex regex = new Regex("^[0-9]+$");
+            
+            if(!regex.IsMatch(e.Text))
+            {
+                e.Handled = true;
+                MessageBox.Show("Solo se permiten numeros.", "Validacion", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+        }
+
+        private void txtApellido_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+            Regex regex = new Regex("^[a-zA-Z ]+$");
+
+            if (!regex.IsMatch(e.Text))
+            {
+                e.Handled = true;
+                MessageBox.Show("Solo se permiten letras y espacios.", "Validacion", MessageBoxButton.OK, MessageBoxImage.Warning);
+            }
+        }
+
+        private void txtNombre_PreviewTextInput(object sender, TextCompositionEventArgs e)
+        {
+            Regex regex = new Regex("^[a-zA-Z ]+$");
+
+            if (!regex.IsMatch(e.Text))
+            {
+                e.Handled = true;
+                MessageBox.Show("Solo se permiten letras y espacios.", "Validacion", MessageBoxButton.OK, MessageBoxImage.Warning);
             }
         }
     }

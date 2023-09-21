@@ -1,10 +1,10 @@
 import React from 'react';
+import Formulario from './components/Formulario';
 
 export default function Home() {
   return (
-    <div>
-      <main>Este es el contenido Principal</main>
-
+    <div>   
+      <Formulario/>  
       <footer className='pie-pagina'>
         <div className='grupo-1'>
             <div className="box">
