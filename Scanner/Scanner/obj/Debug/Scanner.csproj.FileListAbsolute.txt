@@ -388,3 +388,5 @@ C:\Users\al197\OneDrive\Documentos\Lenguajes-Automatas-II\Scanner\Scanner\obj\De
 C:\Users\al197\OneDrive\Documentos\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Scanner.csproj.CoreCompileInputs.cache
 C:\Users\al197\OneDrive\Documentos\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Scanner.exe
 C:\Users\al197\OneDrive\Documentos\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Scanner.pdb
+C:\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Views\Page11.g.cs
+C:\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Views\Page11.baml
