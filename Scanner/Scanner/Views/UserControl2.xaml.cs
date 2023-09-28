@@ -45,6 +45,7 @@ namespace Scanner.Views
                 
             }
             MessageBox.Show("Datos ingresados correctamente");
+            
         }
 
         private void pregunta1_Checked(object sender, RoutedEventArgs e)

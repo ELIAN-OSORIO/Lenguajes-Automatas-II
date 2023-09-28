@@ -162,7 +162,6 @@ C:\Lenguajes-Automatas-II\Scanner\Scanner\bin\Debug\Scanner.exe
 C:\Lenguajes-Automatas-II\Scanner\Scanner\bin\Debug\Scanner.pdb
 C:\Lenguajes-Automatas-II\Scanner\Scanner\bin\Debug\MySql.Data.dll
 C:\Lenguajes-Automatas-II\Scanner\Scanner\bin\Debug\MySql.Data.xml
-C:\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Scanner.csproj.AssemblyReference.cache
 C:\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\MainWindow.g.cs
 C:\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Views\Page1.g.cs
 C:\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Views\Page2.g.cs
