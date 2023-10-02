@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using MySql.Data.MySqlClient;
 
 namespace Scanner.Views
 {
@@ -23,6 +24,28 @@ namespace Scanner.Views
         public UserControl3()
         {
             InitializeComponent();
+        }
+
+        private void Consultar(object sender, RoutedEventArgs e)
+        {
+            string connectionString = "Server=localhost; database=user; Uid=root; pwd=SMOJESC2023";
+
+            using (MySqlConnection connection = new MySqlConnection(connectionString))
+            {
+                connection.Open();
+                string query = "SELECT * FROM produccion";
+
+                using (MySqlCommand cmd = new MySqlCommand(query, connection))
+                {
+                    using (MySqlDataAdapter adapter = new MySqlDataAdapter(cmd))
+                    {
+                        System.Data.DataTable dataTable = new System.Data.DataTable();
+
+                        adapter.Fill(dataTable);
+                        dataGrid.ItemsSource = dataTable.DefaultView;
+                    }
+                }
+            }
         }
     }
 }

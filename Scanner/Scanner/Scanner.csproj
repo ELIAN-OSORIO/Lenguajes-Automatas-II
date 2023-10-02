@@ -322,5 +322,14 @@
   <ItemGroup>
     <Resource Include="Image\whitescan.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\consultas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\scanner-cambio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\scanner-cargador.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

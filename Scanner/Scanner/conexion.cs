@@ -11,7 +11,7 @@ namespace Scanner
     {
         public static MySqlConnection conex()
         {
-            string servidor = "server=localhost; database=userdb; Uid=root; pwd=SMOJESC2023";
+            string servidor = "server=localhost; database=user; Uid=root; pwd=SMOJESC2023";
 
             MySqlConnection conexionDB = new MySqlConnection(servidor);
 

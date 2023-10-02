@@ -28,8 +28,17 @@
                         <ColumnDefinition/>
                         <ColumnDefinition Width="320"/>
                     </Grid.ColumnDefinitions>
-                    <Image Source="/Image/cargador.png"/>
-                    <Rectangle Stroke="red" Height="80" Width="80" Margin="0 0 140 0"></Rectangle>
+                    <Border>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition/>
+                                <RowDefinition/>
+                            </Grid.RowDefinitions>
+                            <Image Source="/Image/cargador.png"/>
+                            <Rectangle Stroke="red" Height="50" Width="50" Margin="50 0 140 0"></Rectangle>
+                            <Image Source="/Image/Scanner-cargador.png" Grid.Row="1"/>
+                        </Grid>
+                    </Border>
                     <Border Grid.Column="1">
                         <Grid>
                             <Grid.RowDefinitions>

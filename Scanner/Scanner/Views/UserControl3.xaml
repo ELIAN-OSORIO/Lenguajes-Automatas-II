@@ -6,19 +6,15 @@
              xmlns:local="clr-namespace:Scanner.Views"
              mc:Ignorable="d" 
              d:DesignHeight="419" d:DesignWidth="592">
-    <Grid>
-        <Border CornerRadius="20" Background="White" Width="350" Height="380">
+    <Grid Background="White">
+        <Border>
             <Grid>
                 <Grid.RowDefinitions>
-                    <RowDefinition Height="60"/>
-                    <RowDefinition Height="120"/>
+                    <RowDefinition Height="50"/>
                     <RowDefinition/>
                 </Grid.RowDefinitions>
-                <Border CornerRadius="20 20 0 0"></Border>
-                <Ellipse Grid.RowSpan="2" Height="120" Width="120" Margin="0 -50 0 0">
-                 
-                </Ellipse>
-                <TextBlock Grid.Row="1" Height="35" Width="280" Margin="0 60 0 0" Text="San Miguel Osorio Jesus Elian" TextAlignment="Center" FontSize="20"></TextBlock>
+                <DataGrid x:Name="dataGrid" AutoGenerateColumns="True" Grid.Row="1"/>
+                <Button Content="CONSULTAR" Height="30" Width="150" Click="Consultar"></Button>
             </Grid>
         </Border>
     </Grid>

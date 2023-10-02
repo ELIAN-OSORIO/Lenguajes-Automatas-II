@@ -56,6 +56,16 @@
                         <Image Source="Image\setting.png"/>
                     </Grid>
                 </Button>
+                <Button Height="30" BorderBrush="Transparent" Margin="0 0 0 0" Click="ventanaconsulta">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="50"/>
+                            <ColumnDefinition Width="150"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="1" Text="Consultas" TextAlignment="Left" VerticalAlignment="Center" HorizontalAlignment="Left" Width="140" FontSize="15"></TextBlock>
+                        <Image Source="/Image/consultas.png"/>
+                    </Grid>
+                </Button>
             </StackPanel>
             <Grid Grid.Row="1" Grid.Column="1" Background="#007cab">
                 <Grid>

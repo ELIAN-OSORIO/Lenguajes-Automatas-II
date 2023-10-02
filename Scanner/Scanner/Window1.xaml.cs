@@ -23,6 +23,7 @@ namespace Scanner
         public Window1()
         {
             InitializeComponent();
+            WindowStartupLocation = WindowStartupLocation.CenterScreen;
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
@@ -56,6 +57,11 @@ namespace Scanner
             MainWindow ventana = new MainWindow();
             ventana.Show();
             Close();
+        }
+
+        private void ventanaconsulta(object sender, RoutedEventArgs e)
+        {
+            DataContext = new UserControl3();
         }
 
 
