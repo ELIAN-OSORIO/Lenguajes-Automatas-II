@@ -28,7 +28,7 @@ namespace Scanner.Views
 
         private void Consultar(object sender, RoutedEventArgs e)
         {
-            string connectionString = "Server=localhost; database=user; Uid=root; pwd=SMOJESC2023";
+            string connectionString = "Server=localhost; database=userdb; Uid=root; pwd=SMOJESC2023";
 
             using (MySqlConnection connection = new MySqlConnection(connectionString))
             {

@@ -40,7 +40,7 @@
                             </Grid.RowDefinitions>
                             <TextBlock Text="Cambio bateria" Height="30" Width="180" FontSize="25" TextAlignment="Center" HorizontalAlignment="Left" Margin="20 -10 0 0"></TextBlock>
                             <Separator Height="10" Margin="20 30 20 0" Opacity="0.5"></Separator>
-                            <TextBlock  Grid.Row="1" Text="Para cambiar la bateria del dispositivo presione los botones al mismo tiempo que se encuentra ambos lados del escaner esto permite que se libere la bateria." TextWrapping="Wrap" Height="120" Width="290" FontSize="18" TextAlignment="Justify"></TextBlock>
+                            <TextBlock  Grid.Row="1" Text="Recuerda antes de cambiar la bateria apague el dispositivo. Para cambiar la bateria del dispositivo presione los botones al mismo tiempo que se encuentra ambos lados del escaner esto permite que se libere la bateria." TextWrapping="Wrap" Height="170" Width="290" FontSize="18" TextAlignment="Justify"></TextBlock>
                             <Border Grid.Row="2">
                                 <Grid>
                                     <Grid.ColumnDefinitions>

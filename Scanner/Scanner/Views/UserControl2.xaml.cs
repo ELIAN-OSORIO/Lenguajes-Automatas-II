@@ -35,7 +35,7 @@ namespace Scanner.Views
                 conexionDB.Open();
                 MySqlCommand comando = new MySqlCommand();
                 comando.Connection = conexionDB;
-                comando.CommandText = "insert into produccion(ID,nombre,apellido,fecha,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8,pregunta9,pregunta10,pregunta11,pregunta12) values('" + txtID.Text + "','" + txtNombre.Text + "','" + txtApellido.Text + "','" + fecha.Text + "','" + pregunta1.IsChecked + "','" + pregunta2.IsChecked + "','" + pregunta3.IsChecked + "','" + pregunta4.IsChecked + "','" + pregunta5.IsChecked + "','" + pregunta6.IsChecked + "','" + pregunta7.IsChecked + "','" + pregunta8.IsChecked + "','" + pregunta9.IsChecked + "','" + pregunta10.IsChecked + "','" + pregunta11.IsChecked + "','" + pregunta12.IsChecked + "')";
+                comando.CommandText = "insert into produccion(id_matricula,name,apellido,fecha,pregunta1,pregunta2,pregunta3,pregunta4,pregunta5,pregunta6,pregunta7,pregunta8,pregunta9,pregunta10,pregunta11,pregunta12) values('" + txtID.Text + "','" + txtNombre.Text + "','" + txtApellido.Text + "','" + fecha.Text + "','" + pregunta1.IsChecked + "','" + pregunta2.IsChecked + "','" + pregunta3.IsChecked + "','" + pregunta4.IsChecked + "','" + pregunta5.IsChecked + "','" + pregunta6.IsChecked + "','" + pregunta7.IsChecked + "','" + pregunta8.IsChecked + "','" + pregunta9.IsChecked + "','" + pregunta10.IsChecked + "','" + pregunta11.IsChecked + "','" + pregunta12.IsChecked + "')";
                 comando.ExecuteNonQuery();
                 conexionDB.Close();
             }
