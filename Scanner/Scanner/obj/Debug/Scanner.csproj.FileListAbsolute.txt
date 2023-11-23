@@ -380,3 +380,8 @@ C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug
 C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\mainwindow.baml
 C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Views\Informacion bateria.g.cs
 C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Views\Informacion bateria.baml
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\bin\Debug\Scanner.exe.manifest
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\bin\Debug\Scanner.application
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Scanner.csproj.AssemblyReference.cache
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Scanner.exe.manifest
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\Scanner.application
