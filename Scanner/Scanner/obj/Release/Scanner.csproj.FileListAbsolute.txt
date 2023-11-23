@@ -1,0 +1,42 @@
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\bin\Release\Scanner.exe.config
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\bin\Release\Scanner.exe
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\bin\Release\Scanner.pdb
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Scanner.csproj.AssemblyReference.cache
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Menu inicio.g.cs
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Page1.g.cs
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Asistencia usuario.g.cs
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Conclusion.g.cs
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Page2.g.cs
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Page3.g.cs
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Cambio bateria.g.cs
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Remover bateria.g.cs
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Centro de carga.g.cs
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Escaner estatus.g.cs
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Insertar bateria.g.cs
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Errores.g.cs
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Estatus bateria.g.cs
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Menu desplegable.g.cs
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\App.g.cs
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\GeneratedInternalTypeHelper.g.cs
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Scanner_MarkupCompile.cache
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Scanner_MarkupCompile.lref
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Menu inicio.baml
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Page1.baml
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Asistencia usuario.baml
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Conclusion.baml
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Page2.baml
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Page3.baml
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Cambio bateria.baml
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Remover bateria.baml
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Centro de carga.baml
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Escaner estatus.baml
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Insertar bateria.baml
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Errores.baml
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Views\Estatus bateria.baml
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Menu desplegable.baml
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Scanner.g.resources
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Scanner.Properties.Resources.resources
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Scanner.csproj.GenerateResource.cache
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Scanner.csproj.CoreCompileInputs.cache
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Scanner.exe
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Release\Scanner.pdb

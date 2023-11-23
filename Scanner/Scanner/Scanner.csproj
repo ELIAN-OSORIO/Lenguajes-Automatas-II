@@ -59,53 +59,40 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="conexion.cs" />
-    <Compile Include="Views\Page1.xaml.cs">
-      <DependentUpon>Page1.xaml</DependentUpon>
+    <Compile Include="Views\Informacion bateria.xaml.cs">
+      <DependentUpon>Informacion bateria.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Page10.xaml.cs">
-      <DependentUpon>Page10.xaml</DependentUpon>
+    <Compile Include="Views\Asistencia usuario.xaml.cs">
+      <DependentUpon>Asistencia usuario.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Page11.xaml.cs">
-      <DependentUpon>Page11.xaml</DependentUpon>
+    <Compile Include="Views\Conclusion.xaml.cs">
+      <DependentUpon>Conclusion.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Page2.xaml.cs">
-      <DependentUpon>Page2.xaml</DependentUpon>
+    <Compile Include="Views\Cambio bateria.xaml.cs">
+      <DependentUpon>Cambio bateria.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Page3.xaml.cs">
-      <DependentUpon>Page3.xaml</DependentUpon>
+    <Compile Include="Views\Remover bateria.xaml.cs">
+      <DependentUpon>Remover bateria.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Page4.xaml.cs">
-      <DependentUpon>Page4.xaml</DependentUpon>
+    <Compile Include="Views\Centro de carga.xaml.cs">
+      <DependentUpon>Centro de carga.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Page5.xaml.cs">
-      <DependentUpon>Page5.xaml</DependentUpon>
+    <Compile Include="Views\Escaner estatus.xaml.cs">
+      <DependentUpon>Escaner estatus.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Page6.xaml.cs">
-      <DependentUpon>Page6.xaml</DependentUpon>
+    <Compile Include="Views\Insertar bateria.xaml.cs">
+      <DependentUpon>Insertar bateria.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Page7.xaml.cs">
-      <DependentUpon>Page7.xaml</DependentUpon>
+    <Compile Include="Views\Errores.xaml.cs">
+      <DependentUpon>Errores.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Page8.xaml.cs">
-      <DependentUpon>Page8.xaml</DependentUpon>
+    <Compile Include="Views\Estatus bateria.xaml.cs">
+      <DependentUpon>Estatus bateria.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\Page9.xaml.cs">
-      <DependentUpon>Page9.xaml</DependentUpon>
+    <Compile Include="Menu desplegable.xaml.cs">
+      <DependentUpon>Menu desplegable.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Views\UserControl1.xaml.cs">
-      <DependentUpon>UserControl1.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\UserControl2.xaml.cs">
-      <DependentUpon>UserControl2.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Views\UserControl3.xaml.cs">
-      <DependentUpon>UserControl3.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Window1.xaml.cs">
-      <DependentUpon>Window1.xaml</DependentUpon>
-    </Compile>
-    <Page Include="MainWindow.xaml">
+    <Page Include="mainwindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -113,67 +100,51 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="MainWindow.xaml.cs">
-      <DependentUpon>MainWindow.xaml</DependentUpon>
+    <Compile Include="mainwindow.xaml.cs">
+      <DependentUpon>mainwindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Views\Page1.xaml">
+    <Page Include="Views\Informacion bateria.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Page10.xaml">
+    <Page Include="Views\Asistencia usuario.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Page11.xaml">
+    <Page Include="Views\Conclusion.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Page2.xaml">
+    <Page Include="Views\Cambio bateria.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Page3.xaml">
+    <Page Include="Views\Remover bateria.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Page4.xaml">
+    <Page Include="Views\Centro de carga.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Page5.xaml">
+    <Page Include="Views\Escaner estatus.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Page6.xaml">
+    <Page Include="Views\Insertar bateria.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Page7.xaml">
+    <Page Include="Views\Errores.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Page8.xaml">
+    <Page Include="Views\Estatus bateria.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="Views\Page9.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\UserControl1.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\UserControl2.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Views\UserControl3.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Window1.xaml">
+    <Page Include="Menu desplegable.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

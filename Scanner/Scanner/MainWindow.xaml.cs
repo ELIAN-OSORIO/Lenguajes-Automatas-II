@@ -28,7 +28,7 @@ namespace Scanner
             
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void Menu_desplegable(object sender, RoutedEventArgs e)
         {
             Window1 ventana = new Window1();
             ventana.Show();

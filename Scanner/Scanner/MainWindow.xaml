@@ -34,7 +34,7 @@
                                     <ColumnDefinition/>
                                     <ColumnDefinition/>
                                 </Grid.ColumnDefinitions>
-                                <Button BorderBrush="White" Grid.ColumnSpan="2" Height="40" Width="150" HorizontalAlignment="Center" Click="Button_Click" Background="#4682b4 ">
+                                <Button BorderBrush="White" Grid.ColumnSpan="2" Height="40" Width="150" HorizontalAlignment="Center" Click="Menu_desplegable" Background="#4682b4 ">
                                     <TextBlock Text="CONTINUAR" FontSize="25" FontFamily="Trebuchet MS" Foreground="White"></TextBlock>
                                 </Button>
                             </Grid>

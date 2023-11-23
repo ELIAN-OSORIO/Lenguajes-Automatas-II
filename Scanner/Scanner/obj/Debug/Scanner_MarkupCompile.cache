@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\c-jsanmiguel\Desktop\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\obj\Debug\
 Scanner
 none
 false
 DEBUG;TRACE
-C:\Users\c-jsanmiguel\Desktop\Lenguajes-Automatas-II\Scanner\Scanner\App.xaml
-161604922422
+C:\Users\c-jsanmiguel\Documents\Lenguajes-Automatas-II\Scanner\Scanner\App.xaml
+121364542610
 
-21-504341907
+16945591034
 141578367223
-MainWindow.xaml;Views\Page1.xaml;Views\Page10.xaml;Views\Page11.xaml;Views\Page2.xaml;Views\Page3.xaml;Views\Page4.xaml;Views\Page5.xaml;Views\Page6.xaml;Views\Page7.xaml;Views\Page8.xaml;Views\Page9.xaml;Views\UserControl1.xaml;Views\UserControl2.xaml;Views\UserControl3.xaml;Window1.xaml;
+mainwindow.xaml;Views\Informacion bateria.xaml;Views\Asistencia usuario.xaml;Views\Conclusion.xaml;Views\Cambio bateria.xaml;Views\Remover bateria.xaml;Views\Centro de carga.xaml;Views\Escaner estatus.xaml;Views\Insertar bateria.xaml;Views\Errores.xaml;Views\Estatus bateria.xaml;Menu desplegable.xaml;
 
 False
 
