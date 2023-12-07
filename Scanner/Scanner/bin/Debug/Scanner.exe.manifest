@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Scanner.exe" size="2387936">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Scanner.exe" size="2393568">
       <assemblyIdentity name="Scanner" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>HUguX3e8DMV3pTQkbzr3kQSziVYG3psQLp9l8GR/YKo=</dsig:DigestValue>
+        <dsig:DigestValue>HZzNV4pK32eWijB/wF+gnoyO+67khpVwruMrT+Iw5Mg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
