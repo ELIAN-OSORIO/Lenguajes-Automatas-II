@@ -120,6 +120,9 @@
     <Compile Include="Menu desplegable.xaml.cs">
       <DependentUpon>Menu desplegable.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\UserControl2.xaml.cs">
+      <DependentUpon>UserControl2.xaml</DependentUpon>
+    </Compile>
     <Page Include="mainwindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -173,6 +176,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Menu desplegable.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\UserControl2.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -342,6 +349,18 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Creator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\albatro.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\mail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\call.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

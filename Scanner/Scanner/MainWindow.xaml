@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Scanner"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Ventana Inicio" Height="450" Width="800">
     <Grid Background="#007cab">
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
@@ -35,7 +35,7 @@
                                     <ColumnDefinition/>
                                 </Grid.ColumnDefinitions>
                                 <Button BorderBrush="White" Grid.ColumnSpan="2" Height="40" Width="150" HorizontalAlignment="Center" Click="Menu_desplegable" Background="#4682b4 ">
-                                    <TextBlock Text="CONTINUAR" FontSize="25" FontFamily="Trebuchet MS" Foreground="White"></TextBlock>
+                                    <TextBlock Text="INICIAR" FontSize="25" FontFamily="Trebuchet MS" Foreground="White"></TextBlock>
                                 </Button>
                             </Grid>
                         </Border>

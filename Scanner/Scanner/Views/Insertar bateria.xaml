@@ -38,8 +38,8 @@
                                     <ColumnDefinition/>
                                     <ColumnDefinition/>
                                 </Grid.ColumnDefinitions>
-                                <Button Width="120" Height="40" Content="CONTINUAR" Background="#4682b4" FontSize="20" BorderBrush="White" Foreground="White" Click="Next_page"></Button>
-                                <Button Width="120" Height="40" Grid.Column="1" Content="REGRESAR" Background="#4682b4" BorderBrush="White" Foreground="White" FontSize="20" Click="Back_page"></Button>
+                                <Button Width="130" Height="40" Content="CONTINUAR" Background="#4682b4" FontSize="20" BorderBrush="White" Foreground="White" Click="Next_page"></Button>
+                                <Button Width="130" Height="40" Grid.Column="1" Content="REGRESAR" Background="#4682b4" BorderBrush="White" Foreground="White" FontSize="20" Click="Back_page"></Button>
                             </Grid>
                         </Border>
                     </Grid>

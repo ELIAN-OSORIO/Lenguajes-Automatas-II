@@ -56,8 +56,8 @@
                                         <ColumnDefinition/>
                                         <ColumnDefinition/>
                                     </Grid.ColumnDefinitions>
-                                    <Button Height="40" Width="120" Content="CONTINUAR" Click="Next_Page" Background="#4682b4" FontSize="20" BorderBrush="White" Foreground="White"></Button>
-                                    <Button Height="40" Width="120" Content="REGRESAR" Grid.Column="1" Click="Back_Page" Foreground="White" FontSize="20" BorderBrush="White" Background="#4682b4"></Button>
+                                    <Button Height="40" Width="130" Content="CONTINUAR" Click="Next_Page" Background="#4682b4" FontSize="20" BorderBrush="White" Foreground="White"></Button>
+                                    <Button Height="40" Width="130" Content="REGRESAR" Grid.Column="1" Click="Back_Page" Foreground="White" FontSize="20" BorderBrush="White" Background="#4682b4"></Button>
                                 </Grid>
                             </Border>
                         </Grid>

@@ -52,5 +52,10 @@ namespace Scanner
             ventana.Show();
             Close();
         }
+
+        private void profile(object sender, RoutedEventArgs e)
+        {
+            DataContext = new UserControl2();
+        }
     }
 }
